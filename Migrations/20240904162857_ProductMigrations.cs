@@ -5,13 +5,13 @@
 namespace EcommerceWebApplicationMVC.Migrations
 {
     /// <inheritdoc />
-    public partial class ProductsMigrations : Migration
+    public partial class ProductMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Product",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -19,12 +19,12 @@ namespace EcommerceWebApplicationMVC.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<double>(type: "float", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    productColor = table.Column<int>(type: "int", nullable: true)
+                    ImageURL = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    productColor = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Product", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                 });
         }
 
@@ -32,7 +32,7 @@ namespace EcommerceWebApplicationMVC.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Product");
+                name: "Products");
         }
     }
 }

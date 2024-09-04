@@ -5,13 +5,13 @@
 namespace EcommerceWebApplicationMVC.Migrations
 {
     /// <inheritdoc />
-    public partial class CategoryMigration : Migration
+    public partial class CategoryMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Category",
+                name: "Categorys",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -21,7 +21,7 @@ namespace EcommerceWebApplicationMVC.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Category", x => x.Id);
+                    table.PrimaryKey("PK_Categorys", x => x.Id);
                 });
         }
 
@@ -29,7 +29,7 @@ namespace EcommerceWebApplicationMVC.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Category");
+                name: "Categorys");
         }
     }
 }

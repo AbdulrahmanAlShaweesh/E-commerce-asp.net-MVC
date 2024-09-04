@@ -9,12 +9,12 @@ namespace EcommerceWebApplicationMVC.Data
 {
     public class EcommerceDbContext : DbContext
     {
-        public EcommerceDbContext(DbContextOptions<EcommerceDbContext> options ) : base(options)
+        public EcommerceDbContext(DbContextOptions<EcommerceDbContext> options) : base(options)
         {
             
         }
 
-        DbSet<CategoryModel> Category {get; set;} 
-        DbSet<ProductModel> Product {get; set;}
+        DbSet<ProductModel> Products {get; set;}
+        DbSet<CategoryModel> Categorys {get; set;}
     }
 }

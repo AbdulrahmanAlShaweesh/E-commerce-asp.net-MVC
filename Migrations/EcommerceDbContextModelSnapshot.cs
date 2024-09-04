@@ -39,7 +39,7 @@ namespace EcommerceWebApplicationMVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categorys");
                 });
 
             modelBuilder.Entity("EcommerceWebApplicationMVC.Models.Entities.ProductModel", b =>
@@ -54,7 +54,7 @@ namespace EcommerceWebApplicationMVC.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -65,12 +65,12 @@ namespace EcommerceWebApplicationMVC.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<int?>("productColor")
+                    b.Property<int>("productColor")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }

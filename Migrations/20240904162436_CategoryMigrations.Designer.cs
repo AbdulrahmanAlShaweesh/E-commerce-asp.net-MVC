@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcommerceWebApplicationMVC.Migrations
 {
     [DbContext(typeof(EcommerceDbContext))]
-    [Migration("20240904134408_CategoryMigration")]
-    partial class CategoryMigration
+    [Migration("20240904162436_CategoryMigrations")]
+    partial class CategoryMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,7 +42,7 @@ namespace EcommerceWebApplicationMVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categorys");
                 });
 #pragma warning restore 612, 618
         }
