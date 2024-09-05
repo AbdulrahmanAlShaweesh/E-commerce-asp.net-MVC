@@ -14,7 +14,7 @@ namespace EcommerceWebApplicationMVC.Data
             
         }
 
-        DbSet<ProductModel> Products {get; set;}
-        DbSet<CategoryModel> Categorys {get; set;}
+        public DbSet<ProductModel> Products {get; set;}
+        public DbSet<CategoryModel> Categorys {get; set;}
     }
 }

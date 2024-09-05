@@ -11,6 +11,7 @@ builder.Services.AddDbContext<EcommerceDbContext>(options => {
 });
 
 var app = builder.Build();
+ApplicationInitalizer.Seed(app.Services);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -30,5 +31,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
