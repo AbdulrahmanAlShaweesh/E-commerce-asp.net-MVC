@@ -1,72 +1,77 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using EcommerceWebApplicationMVC.Models.Entities;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EcommerceWebApplicationMVC.Data
 {
     public class ApplicationInitalizer
-    {   
-        // this function helps us to add defulat data to db in db does not has a data inside it.
-        public static void Seed(IServiceProvider builder) {
+    {
+        // This function helps us to add default data to the database if the database does not have data inside it.
+        public static void Seed(IServiceProvider builder)
+        {
             using (var applicationservices = builder.CreateScope())
             {
                 var context = applicationservices.ServiceProvider.GetRequiredService<EcommerceDbContext>();
 
                 context.Database.EnsureCreated();
-                // if the context does not include a data then will add this below object into it
-                if (!context.Categorys.Any()){
-                    var categories = new List<CategoryModel> {
-                        new CategoryModel (){
-                            Name = "C1", 
-                            Description = "This is the first category"
-                        },
-                        new CategoryModel (){
-                            Name = "C2", 
-                            Description = "This is the second category"
-                        },
-                        new CategoryModel (){
-                            Name = "C3", 
-                            Description = "This is the third category"
-                        }
+
+                // Ensure that categories are seeded first
+                if (!context.Categorys.Any())
+                {
+                    var categories = new List<CategoryModel>
+                    {
+                        new CategoryModel { Name = "C1", Description = "This is the first category" },
+                        new CategoryModel { Name = "C2", Description = "This is the second category" },
+                        new CategoryModel { Name = "C3", Description = "This is the third category" }
                     };
-                    context.Categorys.AddRange();   // to add the data into the database. 
+
+                    context.Categorys.AddRange(categories); // Adds categories to the database
                     context.SaveChanges();
                 }
-                // To add to the Product Table... 
-                if(!context.Products.Any()){
-                    var products = new List<ProductModel> {
-                        new ProductModel() {
+
+                // Retrieve the seeded categories
+                var existingCategories = context.Categorys.ToList();
+
+                // Ensure that products are seeded with a valid CategoryId
+                if (!context.Products.Any())
+                {
+                    var products = new List<ProductModel>
+                    {
+                        new ProductModel
+                        {
                             Name = "Product 1",
                             Description = "This is a product 1",
-                            Price = 44, 
-                            ImageURL = "https...", 
+                            Price = 44,
+                            ImageURL = "https...",
                             productColor = ProductColor.Red,
-
-                        }, 
-                        new ProductModel() {
+                            CategoryId = existingCategories[0].Id // Set a valid CategoryId
+                        },
+                        new ProductModel
+                        {
                             Name = "Product 2",
                             Description = "This is a product 2",
-                            Price = 45.3, 
-                            ImageURL = "https...", 
+                            Price = 45.3,
+                            ImageURL = "https...",
                             productColor = ProductColor.Green,
-
-                        }, 
-                        new ProductModel() {
+                            CategoryId = existingCategories[1].Id // Set a valid CategoryId
+                        },
+                        new ProductModel
+                        {
                             Name = "Product 3",
                             Description = "This is a product 3",
-                            Price = 2344, 
-                            ImageURL = "https...", 
+                            Price = 2344,
+                            ImageURL = "https...",
                             productColor = ProductColor.Yellow,
-
+                            CategoryId = existingCategories[2].Id // Set a valid CategoryId
                         }
                     };
-                    context.Products.AddRange(); 
-                    context.SaveChanges();
-                }     
 
+                    context.Products.AddRange(products); // Adds products to the database
+                    context.SaveChanges();
+                }
             }
-        } 
+        }
     }
 }

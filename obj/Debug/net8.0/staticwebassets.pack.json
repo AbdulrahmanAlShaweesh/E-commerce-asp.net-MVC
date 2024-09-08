@@ -197,6 +197,110 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/all.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/all.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/all.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/brands.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/regular.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/solid.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v4-font-face.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v4-font-face.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v4-font-face.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v4-font-face.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v5-font-face.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v5-font-face.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/css/v5-font-face.min.css",
+      "PackagePath": "staticwebassets/lib/fontawesome/css/v5-font-face.min.css"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/fontawesome/webfonts/fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets/lib/fontawesome/webfonts/fa-v4compatibility.woff2"
+    },
+    {
       "Id": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },

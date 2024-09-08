@@ -13,7 +13,7 @@ builder.Services.AddDbContext<EcommerceDbContext>(options => {
 var app = builder.Build();
 ApplicationInitalizer.Seed(app.Services);
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipelin   e.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
