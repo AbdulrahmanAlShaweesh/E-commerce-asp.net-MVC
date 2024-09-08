@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7Ii2KUMTR8K3udhIeznQbY8EoU6q9krQ8MxPJefK/ig=",
+  "Hash": "KicCuXM7kCeQkPMBvwftxATYx0EJFq4/VPOaJRbmdt4=",
   "Source": "EcommerceWebApplicationMVC",
   "BasePath": "_content/EcommerceWebApplicationMVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/obj/Debug/net8.0/scopedcss/projectbundle/EcommerceWebApplicationMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/css/products.css",
+      "SourceId": "EcommerceWebApplicationMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/",
+      "BasePath": "_content/EcommerceWebApplicationMVC",
+      "RelativePath": "css/products.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/products.css"
     },
     {
       "Identity": "/Users/alshwishabdulrahman/Documents/FullStock/BackEnd/MVCProjects/EcommerceWebApplicationMVC/wwwroot/css/site.css",

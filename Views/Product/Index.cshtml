@@ -1,40 +1,37 @@
 
-@model List<EcommerceWebApplicationMVC.Models.Entities.ProductModel> 
+ 
+ @model List<EcommerceWebApplicationMVC.Models.Entities.ProductModel> 
 
-@{
-    ViewData["Title"] = "Products";
-}
+ 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-asp-append-version="true">
+    @{
+        ViewData["Title"] = "Product Page";
+    }  
+
+    
 </head>
 <body>
-        <table class="table table-striped table-hover">
-            <thead>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                    <th>Image Url</th>
-                    <th>Product Color</th>
-                    <th>Category Id</th>
-            </thead>
 
-            <tbody>
-                @foreach(var product in Model){
-                    <tr>
-                        <td>@product.Name</td>
-                        <td>@product.Description</td>
-                        <td>@product.Price</td>
-                        <td>@product.ImageURL</td>
-                        <td>@product.productColor</td>
-                        <td>@product.CategoryId</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+        <div class="row">
+            @foreach(var product in Model) {
+                <div class="col-md-3 text-center">
+                    <div class="card">
+                        <img src=""/>
+                            <h2>@product.Name</h2>
+                            <p class="price">@product.Price.ToString("c")</p>
+                            <p>@product.Description</p>
+                            <p style="color: @product.productColor;">@product.productColor</p>
+                            <p>@product.Category.Name</p>
+                            <button>Add to Cart</button>
+                    </div>
+                </div>
+            }
+        </div>
 </body>
 </html>
