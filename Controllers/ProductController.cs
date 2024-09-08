@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 namespace EcommerceWebApplicationMVC.Controllers
 {
-    [Route("[controller]")]
+   
     public class ProductController : Controller
     {
         
@@ -21,6 +21,8 @@ namespace EcommerceWebApplicationMVC.Controllers
             _context = context;
         }
 
+        
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var Response = await _context.Products.ToListAsync();

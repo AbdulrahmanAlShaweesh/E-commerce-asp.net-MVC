@@ -1,0 +1,40 @@
+
+@model List<EcommerceWebApplicationMVC.Models.Entities.ProductModel> 
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <table class="table table-striped table-hover">
+            <thead>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Image Url</th>
+                    <th>Product Color</th>
+                    <th>Category Id</th>
+            </thead>
+
+            <tbody>
+                @foreach(var product in Model){
+                    <tr>
+                        <td>@product.Name</td>
+                        <td>@product.Description</td>
+                        <td>@product.Price</td>
+                        <td>@product.ImageURL</td>
+                        <td>@product.productColor</td>
+                        <td>@product.CategoryId</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</body>
+</html>
